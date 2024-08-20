@@ -24,7 +24,7 @@ public class Cartera implements PatronCartera{
             System.out.println("Tarjeta Nº "+counter);
             System.out.println("Numero de tarjeta: "+Tarjetas.get(i).getNumeroDeCuenta()+
                     "\nCuota de Manejo: "+Tarjetas.get(i).cuotaDeManejo()+
-                    "\nTipo de tarjeta: "+Tarjetas.get(i).getClass()+
+                    "\nTipo de tarjeta: "+Tarjetas.get(i).getClass().getSimpleName()+
                     "\nMes: "+Tarjetas.get(i).getMes()+"\n"
             );
         }
